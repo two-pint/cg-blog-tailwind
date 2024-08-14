@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 269.9 219.1">
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="Layer_1-2" data-name="Layer 1-2">
+      <path d="M269.6,89.9v-16.9h-39.3v-11.2h-5.6v-11.2h-5.6v-22.5h-5.6v-5.6h-5.6v-11.2h-5.6V0H50.4v5.6h-5.6v5.6h-5.6v5.6h-5.6v5.6h-5.6v5.6h-5.6v5.6h-5.6v5.6h-5.6v5.6h-5.6v5.6H0v140.6h16.9v16.9h11.2v5.6h5.6v5.6h151.9v-11.2h22.5v-16.9h11.2v-22.5h16.9v-45h-16.9v-33.7h50.6l-.3.1ZM67.1,157.4h-16.9v-56.2h16.9v56.2h0ZM22.1,67.4v-11.3h5.6v-5.6h5.6v-5.6h5.6v-5.6h5.6v-5.6h5.6v-5.6h5.6v-5.6h5.6v-5.6h123.7v5.6h11.2v11.2h5.6v33.7H21.8h.3ZM185.2,185.5h-50.6v-11.2h50.6v11.2ZM219,151.7h-101.2v-16.9h-11.2v-28.1h11.2v-16.9h84.4v50.6h16.9v11.2h0l-.1.1Z" style="fill: #333; stroke-width: 0px;"/>
+      <rect x="151.5" y="106.8" width="16.9" height="28.1" style="fill: #333; stroke-width: 0px;"/>
+      <rect x="134.6" y="174.2" width="50.6" height="11.2" style="fill: #fcbf7c; stroke-width: 0px;"/>
+      <path d="M202.1,140.5v-50.6h-84.4v16.9h-11.2v28.1h11.2v16.9h101.2v-11.2h-16.9l.1-.1ZM151.5,106.8h16.9v28.1h-16.9v-28.1Z" style="fill: #fcbf7c; stroke-width: 0px;"/>
+      <rect x="50.3" y="101.1" width="16.9" height="56.2" style="fill: #fcbf7c; stroke-width: 0px;"/>
+      <path d="M202.1,33.6v33.7H22.1v-11.2h5.6v-5.6h5.6v-5.6h5.6v-5.6h5.6v-5.6h5.6v-5.6h5.6v-5.6h5.6v-5.6h123.7v5.6h11.2v11.2h5.6l.3-.1Z" style="fill: #3182ce; stroke-width: 0px;"/>
+    </g>
+  </g>
+</svg>
