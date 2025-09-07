@@ -202,15 +202,7 @@ function AvatarContainer({
   className,
   ...props
 }: React.ComponentPropsWithoutRef<'div'>) {
-  return (
-    <div
-      className={clsx(
-        className,
-        'h-12 w-12 rounded-full bg-white/90 p-0.5 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:ring-white/10',
-      )}
-      {...props}
-    />
-  )
+  return <div className={clsx(className)} {...props} />
 }
 
 function Avatar({
@@ -231,9 +223,7 @@ function Avatar({
         src={avatarImage}
         alt=""
         sizes={large ? '4rem' : '2.25rem'}
-        className={clsx(
-          'object-over h-11 w-11 rounded-full bg-zinc-100 p-0.5 dark:bg-zinc-700',
-        )}
+        className={clsx('h-10 w-10')}
         priority
       />
     </Link>
@@ -376,10 +366,6 @@ export function Header() {
                 <AvatarContainer>
                   <Avatar />
                 </AvatarContainer>
-              </div>
-              <div className="flex flex-1 justify-end md:justify-center">
-                <MobileNavigation className="pointer-events-auto md:hidden" />
-                <DesktopNavigation className="pointer-events-auto hidden md:block" />
               </div>
               <div className="flex justify-end md:flex-1">
                 <div className="pointer-events-auto">
