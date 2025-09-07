@@ -1,11 +1,11 @@
 import { ArticleLayout } from '@/components/ArticleLayout'
 
 export const article = {
-  author: 'Adam Wathan',
-  date: '2022-09-02',
-  title: 'Introducing Animaginary: High performance web animations',
+  author: 'Court Garr',
+  date: '2025-09-04',
+  title: 'Search Algorithms',
   description:
-    'When you’re building a website for a company as ambitious as Planetaria, you need to make an impression. I wanted people to visit our website and see animations that looked more realistic than reality itself.',
+    'Understanding Big O Notation is a fundamental concept in computer science. It helps us analyze the performance of algorithms and data structures.',
 }
 
 export const metadata = {
@@ -15,28 +15,10 @@ export const metadata = {
 
 export default (props) => <ArticleLayout article={article} {...props} />
 
-When you’re building a website for a company as ambitious as Planetaria, you need to make an impression. I wanted people to visit our website and see animations that looked more realistic than reality itself.
+Most companies try to stay ahead of the curve when it comes to visual design, but for Planetaria we needed to create a brand that would still inspire us 100 years from now when humanity has spread across our entire solar system.
 
-To make this possible, we needed to squeeze every drop of performance out of the browser possible. And so Animaginary was born.
 
-```js
-import { animate } from '@planetaria/animaginary'
-
-export function MyComponent({ open, children }) {
-  return (
-    <animate.div
-      in={open}
-      animateFrom="opacity-0 scale-95"
-      animateTo="opacity-100 scale-100"
-      duration={350}
-    >
-      {children}
-    </animate.div>
-  )
-}
-```
-
-Animaginary is our new web animation library that redefines what you thought was possible on the web. Hand-written in optimized WASM, Animaginary can even animate the `height` property of an element at 60fps.
+I knew that to get it right I was going to have to replicate the viewing conditions of someone from the future, so I grabbed my space helmet from the closet, created a new Figma document, and got to work.
 
 ## Sermone fata
 
@@ -53,17 +35,36 @@ dotibus ora, et findi huic invenit; fatis? Fractaque dare superinposita
 nimiumque simulatoremque sanguine, at voce aestibus diu! Quid veterum hausit tu
 nil utinam paternos ima, commentaque.
 
-```c
-exbibyte_wins = gigahertz(3);
-grayscaleUtilityClient = control_uat;
-pcmciaHibernate = oop_virus_console(text_mountain);
-if (stateWaisFirewire >= -2) {
-    jfs = 647065 / ldapVrml(tutorialRestore, 85);
-    metal_runtime_parse = roomComputingResolution - toolbarUpload +
-            ipx_nvram_open;
-} else {
-    maximizeSidebar *= suffix_url(flatbed + 2, requirements_encoding_node +
-            only_qbe_media, minicomputer);
+```rust
+mod utils;
+
+use colored::*;
+
+fn main() {
+    let title_text = r#"
+ _____         _
+|_   _|____  _| |_ _ __ ___   ___  _ __
+  | |/ _ \ \/ / __| '_ ` _ \ / _ \| '_ \
+  | |  __/>  <| |_| | | | | | (_) | | | |
+  |_|\___/_/\_\\__|_| |_| |_|\___/|_| |_|
+
+  "#;
+    println!("{}", title_text.green());
+    let welcome_text = "Please select your team: ";
+    println!("{}", welcome_text.bright_cyan());
+
+    let selected_pokemon = utils::select_pokemon();
+
+    let fight_text = "Please select the pokemon you want to fight: ";
+    println!("{}", fight_text.bright_cyan());
+    let selected_pokemon_to_fight = utils::select_pokemon();
+
+    println!("You selected: {}\n", selected_pokemon_to_fight);
+    println!(
+        "{} vs {}! Let the battle begin!",
+        selected_pokemon.blue(),
+        selected_pokemon_to_fight.blue()
+    );
 }
 ```
 
@@ -89,7 +90,7 @@ supplex. Summa brevis vetuere tenebas, hostes vetantis, suppressit, arreptum
 regna. Postquam conpescit iuvenis habet corpus, et erratica, perdere, tot mota
 ars talis.
 
-```c
+```rust
 digital.webcam_dual_frequency = webmasterMms;
 if (5 + language_standalone_google) {
     cc_inbox_layout *= file_character;
